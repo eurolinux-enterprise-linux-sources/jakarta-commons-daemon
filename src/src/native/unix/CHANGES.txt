@@ -1,0 +1,15 @@
+JAKARTA COMMONS DAEMON (UNIX) CHANGELOG:
+Last modified at [$Date: 2005-05-17 10:03:57 +0200 (Tue, 17 May 2005) $]
+
+Changes with 1.0.1
+  * Allow enableassertions -ea (PR 304310).
+  * Add -lpthread to LDFLAGS on Linux (PR 30177).
+  * Add support for x86_64 (PR 27523).
+  * Add support for Tru64 (PR 29465).
+  * Remove the pid file when son exits correctly (PR 31614).
+  * Add support for JVM-4.1.x on MAC OS X (part of PR 31613).
+  * Prevent starting jsvc several times with the same pidfile (PR 33580).
+  * Finish fixing 31613, automatic detection of JAVA_HOME and headers locations.
+  * -wait and -stop parameters.
+  * fix 34851.
+  * Don't break when set_caps() failed and the user is unchanged (linux).
